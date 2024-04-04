@@ -89,7 +89,7 @@ morse_to_text = {
     '--...': '7',
     '---..': '8',
     '----.': '9',
-    '/': ' ',
+    ' / ': ' ',
     '.-.-.-': '.',
     '--..--': ',',
     '..--..': '?',
@@ -117,4 +117,4 @@ elif request.lower() == 'm':
     output = user_string.split(' ')
     
     for letter in list(output):
-        print(morse_to_text[letter.lower()], end=' ')
+        print(morse_to_text[letter.lower()], end='')
