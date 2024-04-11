@@ -75,5 +75,3 @@ while question.lower() != 'n':
         question = input("Would you play again? [y/n] ")
 
 print("Good-bye!")
-user_score = 0
-py_score = 0
